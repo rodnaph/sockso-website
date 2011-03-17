@@ -48,7 +48,11 @@ class Community_Controller extends Default_Controller {
             $pingData->basepath ? $pingData->basepath : ''
         );
         
-        $json = file_get_contents( $url );
+        $json = @file_get_contents( $url );
+
+        if ( !$json ) {
+            $this->show( 'Server unreachable', 400 );
+        }
 
         return json_decode( $json );
 
@@ -81,7 +85,7 @@ class Community_Controller extends Default_Controller {
         $active->dateUpdated = date( 'Y-m-d H:i:s' );
         $active->save();
 
-        $this->show( 'ok' );
+        $this->show( 'Ok' );
 
     }
 
