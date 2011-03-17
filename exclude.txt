@@ -1,4 +1,0 @@
-conf/smut.conf
-upload.sh
-exclude.txt
-
