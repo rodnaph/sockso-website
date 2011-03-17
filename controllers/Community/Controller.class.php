@@ -8,9 +8,15 @@ class Community_Controller extends Default_Controller {
      */
     public function doIndex() {
         
-        $this->render( 'index', array(
-            'servers' => $this->getModel( 'CommunityActive' )
-                              ->findActive()
+        $servers = $this->getModel( 'CommunityActive' )
+                                      ->findActive();
+
+        $this->respondTo(array(
+            'html' => array(
+                'render' => 'index',
+                'assign' => array( 'servers' => $servers )
+            ),
+            'json' => $this->filterServerData( $servers )
         ));
         
     }
@@ -29,6 +35,33 @@ class Community_Controller extends Default_Controller {
         $this->errorCheck( $pingData );
         $this->recordPing( $ip, $pingData, $this->getServerData($ip,$pingData) );
 
+    }
+
+    /**
+     * Filters interval server data to only hide private fields
+     *
+     * @param array $servers
+     *
+     * @return array
+     */
+    private function filterServerData( $servers ) {
+
+        $filtered = array();
+        $fields = array(
+            'ip', 'port', 'basepath', 'requiresLogin',
+            'title', 'tagline'
+        );
+
+        foreach ( $servers as $server ) {
+            $data = new stdclass();
+            foreach ( $fields as $field ) {
+                $data->$field = $server->$field;
+            }
+            $filtered[] = $data;
+        }
+
+        return $filtered;
+        
     }
 
     /**
