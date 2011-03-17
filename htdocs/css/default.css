@@ -412,3 +412,20 @@ form.donate {
 .community .version {
     text-align: center;
 }
+
+/* Community Advert */
+
+.community-advert {
+    border: 1px #aaa solid;
+    background-color: #ccc;
+}
+
+#recent-posts .community-advert h2,
+.community-advert h2 {
+    border: none;
+    font-weight: bold;
+}
+
+.community-advert p {
+    padding: 8px;
+}

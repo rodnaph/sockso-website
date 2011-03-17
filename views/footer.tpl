@@ -12,6 +12,17 @@ $smarty->assign( 'downloadExtension',
     <!-- start recent-posts -->
     <div id="recent-posts">
 
+        <div class="community-advert">
+
+            <h2>NEW: Sockso Community!</h2>
+
+            <p>Sockso 1.3 has just been released and with it the start of the
+                <a href="index.php?controller=community">Sockso Community</a>. So install
+                or update now to <a href="index.php?controller=manual&page=community">to take part!</a>
+            </p>
+
+        </div>
+
         <p>If you love using Sockso and would like to give a little back,
         try a donation to help out and support open source development.</p>
 
