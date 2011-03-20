@@ -20,7 +20,7 @@ won't restrict adding more ambitious features that require extra libraries, etc.
 <h2>Installing</h2>
 
 <p>When you have downloaded the optionals zip file, you'll just need to unpack it
-and copy the files to a new folder inside your Sockso folder called <b>lib-opt</b>.
+and copy the files to a new folder inside your Sockso folder called <b>lib/opt</b>.
 (You'll see there's already a folder there called <b>lib</b> for the main stuff)</p>
 
 <p>That's it, you should be ready to try out the new features now.</p>
