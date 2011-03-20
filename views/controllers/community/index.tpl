@@ -16,7 +16,7 @@
         </thead>
         <tbody>
             {foreach $servers as $server}
-            <tr>
+            <tr{if $server->requiresLogin} class="requiresLogin"{/if}>
                 <td class="name">
                     <a href="http://{$server->ip}:{$server->port}{$server->basepath}">
                         {$server->title}

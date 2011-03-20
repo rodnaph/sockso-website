@@ -413,6 +413,12 @@ form.donate {
     text-align: center;
 }
 
+.community .requiresLogin .name {
+    background-image: url(../images/padlock.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
 /* Community Advert */
 
 .community-advert {

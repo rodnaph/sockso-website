@@ -8,6 +8,6 @@ create table communityactive (
 	basepath varchar(50) null,
 	port smallint not null,
 	version varchar(20) not null,
-	requiresLogin bit(1) not null,
+	requiresLogin char(1) not null,
 	dateUpdated datetime not null
 );
