@@ -120,6 +120,7 @@ class Community_Controller extends Default_Controller {
      */
     private function recordPing( $ip, $pingData, $serverData ) {
 
+        $now = date( 'Y-m-d H:i:s' );
         $active = $this->getModel( 'CommunityActive' )
                        ->findByKey( $pingData->skey );
 
@@ -135,8 +136,13 @@ class Community_Controller extends Default_Controller {
         $active->version = $serverData->version;
         $active->requiresLogin = $serverData->requiresLogin;
         $active->basepath = $pingData->basepath;
-        $active->dateUpdated = date( 'Y-m-d H:i:s' );
+        $active->dateUpdated = $now;
         $active->save();
+
+        $history = $this->getModel( 'CommunityHistory' );
+        $history->skey = $pingData->skey;
+        $history->dateUpdated = $now;
+        $history->save();
 
         $this->show( 'Ok' );
 
