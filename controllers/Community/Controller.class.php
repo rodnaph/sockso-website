@@ -81,33 +81,13 @@ class Community_Controller extends Default_Controller {
             $pingData->basepath ? $pingData->basepath : ''
         );
         
-        $json = $this->getData( $url );
+        $json = $this->getUrlData( $url );
 
         if ( !$json ) {
             $this->show( 'Server unreachable', 400 );
         }
 
         return json_decode( $json );
-
-    }
-
-    /**
-     * Fetches data from the URL via CURL
-     * 
-     * @param string $url
-     * 
-     * @return string
-     */
-    private function getData( $url ) {
-
-        $ch = curl_init();
-        curl_setopt( $ch, CURLOPT_URL, $url );
-        curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1 );
-        curl_setopt( $ch, CURLOPT_CONNECTTIMEOUT, 5 );
-        $data = curl_exec( $ch );
-        curl_close( $ch );
-
-        return $data;
 
     }
 
