@@ -23,6 +23,7 @@ set it to.  eg.</p>
 <p><b>www.tagline</b>: text (smaller heading)</p>
 <p><b>www.disableDownloads</b>: yes/no</p>
 <p><b>users.requireLogin</b>: yes/no</p>
+<p><b>users.requireActivation</b>: yes/no</p>
 <p><b>users.disableRegistration</b>: yes/no</p>
 <p><b>www.flashPlayer.dontFilterMp3s</b>: yes/no (don't limit flash player to mp3's)</p>
 <p><b>www.imageflow.disable</b>: yes/no (disable imageflow)</p>
