@@ -15,7 +15,7 @@ class Source_Controller extends Default_Controller {
     private function getRecentCommits() {
         
         $data = $this->getUrlData( $this->commitsRssUrl );
-        $xml = new SimpleXml( $data );
+        $xml = simplexml_load_string( $data );
         $commits = array();
 
 
