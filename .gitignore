@@ -1,3 +1,4 @@
 conf/smut.conf
 upload.sh
 nbproject
+views/controllers/version/latest.tpl

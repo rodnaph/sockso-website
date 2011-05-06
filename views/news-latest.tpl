@@ -1,5 +1,32 @@
 
 <div class="post">
+    <h2>4th May</h2>
+    <p><a href="http://sockso.googlecode.com/files/sockso-1.3.3.{$downloadExtension}">Sockso 1.3.3</a>
+    -
+    Album years now shown, Turkish translation added, and MP3 tag library updated (all thanks to <a href="https://github.com/badZeppelin">badZeppelin</a>!),
+    some bug fixes to ajax page loading.
+    </p>
+</div>
+
+<div class="post">
+    <h2>2nd April</h2>
+    <p><a href="http://sockso.googlecode.com/files/sockso-1.3.2.{$downloadExtension}">Sockso 1.3.2</a>
+    -
+    Users can now require approval when registering, and updated ajaxified web interface with embedded player now default.
+    </p>
+</div>
+
+<div class="post">
+    <h2>23rd March</h2>
+    <p><a href="http://sockso.googlecode.com/files/sockso-1.3.1.{$downloadExtension}">Sockso 1.3.1</a>
+    -
+    Fix for missing 'colscan' command from console, moved optional libraries location (to upgrade rename
+    your optionals folder from 'lib-opt' to 'lib/opt', and a bug fix for invalid URL characters
+    breaking some playlist files.
+    </p>
+</div>
+
+<div class="post">
     <h2>17th March</h2>
     <p><a href="http://sockso.googlecode.com/files/sockso-1.3.{$downloadExtension}">Sockso 1.3</a>
     -
