@@ -1,9 +1,11 @@
 
-site.id=
-site.name=
+site.id=sockso
+site.name=Sockso
 
 db.type=
 db.host=
 db.user=
 db.pass=
 db.name=
+
+source.recentCommitsUrl=https://github.com/rodnaph/sockso/commits/master.atom

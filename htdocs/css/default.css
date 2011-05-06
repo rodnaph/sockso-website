@@ -435,3 +435,9 @@ form.donate {
 .community-advert p {
     padding: 8px;
 }
+
+/*===== Source Code =========*/
+
+.commits .commit .author {
+    font-weight: bold;
+}
