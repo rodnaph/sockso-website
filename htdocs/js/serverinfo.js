@@ -100,7 +100,7 @@ if ( google && google.load ) {
         data.addRows( chartData );
 
         chart.draw( data, {
-            width: 600,
+            width: 570,
             height: 400,
             hAxis: {
                 title: 'Date'
