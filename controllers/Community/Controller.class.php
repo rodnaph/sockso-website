@@ -120,7 +120,7 @@ class Community_Controller extends Default_Controller {
         $active->save();
 
         $history = $this->getModel( 'CommunityHistory' );
-        $history->skey = $pingData->skey;
+        $history->active_id = $active->id;
         $history->dateUpdated = $now;
         $history->save();
 
