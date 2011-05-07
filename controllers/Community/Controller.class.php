@@ -70,14 +70,14 @@ class Community_Controller extends Default_Controller {
     private function filterServerData( $servers ) {
 
         $filtered = array();
-        $fields = array(
+        $allowedFields = array(
             'ip', 'port', 'basepath', 'requiresLogin',
             'title', 'tagline'
         );
 
         foreach ( $servers as $server ) {
             $data = new stdclass();
-            foreach ( $fields as $field ) {
+            foreach ( $allowedFields as $field ) {
                 $data->$field = $server->$field;
             }
             $filtered[] = $data;
