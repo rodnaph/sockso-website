@@ -12,6 +12,7 @@
             <tr>
                 <th>Name</th>
                 <th class="version">Version</th>
+                <th class="info"></th>
             </tr>
         </thead>
         <tbody>
@@ -27,10 +28,13 @@
                 <td class="version">
                     {$server->version}
                 </td>
+                <td>
+                    <a class="serverInfo" href="index.php?controller=community&action=info&id={$server->id}">i</a>
+                </td>
             </tr>
             {foreachelse}
             <tr>
-                <td colspan="2" class="empty">
+                <td colspan="3" class="empty">
                     Sorry, no servers currently listed...
                 </td>
             </tr>
@@ -38,7 +42,7 @@
         </tbody>
     </table>
 
-    <p><i>(Listing servers active in the last day)</i></p>
+    <p><i>(Listing servers active in the last day, padlock indicates the server requires a login)</i></p>
 
     <h2>Listing Your Server</h2>
 

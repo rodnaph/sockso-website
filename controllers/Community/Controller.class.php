@@ -38,6 +38,29 @@ class Community_Controller extends Default_Controller {
     }
 
     /**
+     * Shows the ping history for a community server
+     *
+     */
+    public function doInfo() {
+
+        $req = $this->getRequest();
+
+        if ( $req->format == 'json' ) {
+            $data = $this->getModel('CommunityHistory')
+                         ->findByActiveId( $req->id );
+            $this->json( $data );
+        }
+
+        else {
+            $this->render( 'info', array(
+                'server' => $this->getModel( 'CommunityActive' )
+                                 ->findById( $req->id )
+            ));
+        }
+
+    }
+
+    /**
      * Filters interval server data to only hide private fields
      *
      * @param array $servers
