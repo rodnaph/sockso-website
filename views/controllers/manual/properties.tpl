@@ -62,7 +62,7 @@ users.requireLogin to be set to 'yes' as well)</p>
 
 <h3>Logging</h3>
 
-<p><b>log.request.enable</b>: yes/no (enables request logging)</p>
+<p><b>log.requests.enable</b>: yes/no (enables request logging)</p>
 
 <h3>Playback</h3>
 
