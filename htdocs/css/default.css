@@ -463,3 +463,13 @@ form.donate {
 .commits .commit .author {
     font-weight: bold;
 }
+
+/*====== Manual Comments =====*/
+
+.flash {
+    background-color: #ada;
+    border: 1px #696 solid;
+    padding: 8px;
+    margin: 8px;
+    font-weight: bold;
+}

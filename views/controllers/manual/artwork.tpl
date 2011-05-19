@@ -27,4 +27,6 @@ If you want Sockso to cache your local cover images as well (this will
 improve performance if you need it) then set the <a href="index.php?controller=manual&page=properties">property</a>
 <b>covers.cacheLocal</b> to <i>yes</i>.</p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}
