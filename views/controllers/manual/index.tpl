@@ -61,6 +61,16 @@ and drop me a message.</p>
 <li><a href="index.php?controller=manual&page=mysql">Using MySQL as a backend</a></li>
 </ul>
 
+<h2><a href="#dev" name="dev">Developing</a></h2>
+
+<p>These pages give some information about how to get up and running to start developing for Sockso.</p>
+
+<ul>
+    <li><a href="index.php?controller=manual&page=dev-overview">Overview</a></li>
+    <li><a href="index.php?controller=manual&page=dev-contributing">Contributing</a></li>
+    <li><a href="index.php?controller=manual&page=dev-netbeans">Setting up Netbeans</a></li>
+</ul>
+
 <h2>Articles</h2>
 
 <p>Here are some articles that have been written on Sockso that
