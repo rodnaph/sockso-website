@@ -10,6 +10,18 @@
     {if $session->commentSaved}
         <div class="flash">Your comment has been posted.</div>
     {/if}
+    
+    <ul class="comments">
+    {foreach $comments as $comment}
+    
+        <li class="comment">
+            <span class="name">{$comment->name}</span> said:
+            <p>{$comment->body|htmlspecialchars|nl2br}</p>
+            <span class="date">on {$comment->dateCreated}</span>
+        </li>
+    
+    {/foreach}
+    </ul>
 
     <form method="post" action="index.php?controller=manual&action=post">
 
