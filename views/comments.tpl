@@ -1,6 +1,9 @@
 
 {if $page != Manual_Controller::DEFAULT_PAGE}
 
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="{$filesUrl}js/comments.js"></script>
+
     <div class="comments">
 
         {assign var="captcha" value=chr(rand(65,90))}

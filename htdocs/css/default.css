@@ -466,6 +466,12 @@ form.donate {
 
 /*====== Manual Comments =====*/
 
+.comments .toggle {
+    color: #00f;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .comments .flash {
     background-color: #ada;
     border: 1px #696 solid;
