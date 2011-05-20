@@ -12,4 +12,6 @@ then just click on the Console button to get access.</p>
 
 <p><img src="{$filesUrl}images/gui-console.png" /></p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

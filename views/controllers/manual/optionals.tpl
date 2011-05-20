@@ -25,4 +25,6 @@ and copy the files to a new folder inside your Sockso folder called <b>lib/opt</
 
 <p>That's it, you should be ready to try out the new features now.</p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

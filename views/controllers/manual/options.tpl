@@ -45,4 +45,6 @@ can then dump the logs out in a number of popular formats.</p>
 and Sockso is available via the internet.  This is an experimental feature so may
 not work correctly for you.</p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

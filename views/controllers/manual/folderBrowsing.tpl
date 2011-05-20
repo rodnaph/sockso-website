@@ -20,4 +20,6 @@ that haven't been picked up by Sockso yet I'm afraid they won't be playable.</p>
 if you have any suggestions for making it better just come and tell us about
 them in the <a href="http://forums.pu-gh.com">forums</a>.</p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

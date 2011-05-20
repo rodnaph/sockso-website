@@ -52,4 +52,6 @@ $> propset community.enabled yes
 <p>As with Sockso use in general, the music you make available is up to you, so
     check you have the right permission to do so before you put it on the internet.</p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

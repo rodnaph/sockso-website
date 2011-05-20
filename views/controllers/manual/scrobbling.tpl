@@ -14,4 +14,6 @@ to download the log of all the tracks you've listened to.  These tracks will the
 be marked as scrobbled so you don't get them again the next time you download
 your scrobble log.<p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

@@ -11,4 +11,6 @@ albums, and even through the custom playlists you've created.<p>
 
 {include file="controllers/manual/menu-www.tpl"}
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

@@ -23,4 +23,6 @@ can happen if you have a very big collection.  To resolve this you will need to:
 help then you have the option of using <a href="index.php?controller=manual&page=mysql">MySQL as a backend</a>,
 which should give you all the performance you need.</p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

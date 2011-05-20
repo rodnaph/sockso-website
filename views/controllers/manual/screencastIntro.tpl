@@ -21,4 +21,6 @@ PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
 
 <p>Screencast created by James Deepak from <a href="http://www.youtube.com/codecalltutorials">www.youtube.com/codecalltutorials</a></p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

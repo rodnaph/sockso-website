@@ -11,4 +11,6 @@ available, and create custom playlists for people to listen to.</p>
 
 {include file="controllers/manual/menu-gui.tpl"}
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

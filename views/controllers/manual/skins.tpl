@@ -24,4 +24,6 @@ propset www.skin original
 <p>If you do create your own skins please <a href="index.php?controller=contact">send them in</a>
 and they'll get included with the next release!</p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

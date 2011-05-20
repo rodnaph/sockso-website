@@ -13,4 +13,6 @@ in the top left corner which opens an administration console.</p>
 <p>This console behaves exactly the same as the <a href="index.php?controller=manual&action=console">normal console</a>
 and allows you to administrate Sockso from the web.</p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

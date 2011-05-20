@@ -69,4 +69,6 @@ using the <b>www.skin</b> property.</p>
 going to need to start hacking the code.  Get over to the <a href="index.php?controller=source">source code</a>
 page and grab yourself a copy!</p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

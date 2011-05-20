@@ -18,4 +18,6 @@ $> java -jar sockso.jar --dbtype=sqlite
 <p>You can also specify where the database is stored by using the <b>--datadir</b>
 argument.</p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

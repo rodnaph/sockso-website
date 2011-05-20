@@ -28,4 +28,6 @@ then you can select either the <b>M3U</b>, <b>Pls</b>, or <b>XSPF</b> options.  
 will send the playlist to your computer so you can use your preferred
 music application to listen.</p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

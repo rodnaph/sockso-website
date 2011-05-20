@@ -30,4 +30,6 @@ you want Sockso to look for music in.
 folders you've added at any time by selecting them in the list and then
 clicking the <b>Remove</b> button.</p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

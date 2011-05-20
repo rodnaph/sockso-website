@@ -42,4 +42,6 @@ the playlists and delete them.  Easy.</p>
 <p>Playlists you create will show up instantly on your Sockso website for
 people to browse and listen to.</p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

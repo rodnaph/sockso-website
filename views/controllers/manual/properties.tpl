@@ -95,4 +95,6 @@ need to put a commer after it if it ends with a space eg. 'The ,'</p>
 
 <p><b>version.checkDisabled</b>: yes/no (disable checking for updates)
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

@@ -86,4 +86,6 @@ $> ant test-js
 
 <p>You can attach multiple browsers to test across them all at once.</p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

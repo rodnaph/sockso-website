@@ -16,4 +16,6 @@ click the albums to cycle through them!</p>
 <p>Underneath will always have the usual Sockso links for playing the music
 you're browsing.  Hope you find it useful!</p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

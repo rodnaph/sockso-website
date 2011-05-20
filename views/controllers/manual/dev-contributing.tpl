@@ -20,6 +20,6 @@ found on the Github website here:</p>
     <li><a href="http://help.github.com/pull-requests/">Pull Requests</a></li>
 </ul>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}
-
-

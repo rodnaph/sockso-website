@@ -72,5 +72,6 @@ and then compiled into Sockso.  So running the <b>compile</b> target as above wi
 
 <p>Normally though you won't run the <b>compile</b> target directly, you'll usually just use <b>run</b></p>
 
-{include file="footer.tpl"}
+{include file="comments.tpl"}
 
+{include file="footer.tpl"}

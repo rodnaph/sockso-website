@@ -466,10 +466,84 @@ form.donate {
 
 /*====== Manual Comments =====*/
 
-.flash {
+.comments .flash {
     background-color: #ada;
     border: 1px #696 solid;
     padding: 8px;
     margin: 8px;
     font-weight: bold;
+}
+
+.comments h2 {
+    border-top: 1px #ccc solid;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.comments ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.comments li {
+    margin-bottom: 10px;
+}
+
+.comments li.empty {
+    font-style: italic;
+}
+
+.comments li .name {
+    font-weight: bold;
+}
+
+.comments li .body {
+    background-color: #fff;
+    border: 1px #aaa solid;
+    padding: 8px;
+}
+
+.comments li .date {
+    text-align: right;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.comments form fieldset,
+.comments form .row {
+    clear: left;
+}
+
+.comments form .row label {
+    float: left;
+    width: 170px;
+    font-weight: bold;
+    text-align: right;
+    padding: 4px 10px 4px 4px;
+}
+
+.comments form .row input,
+.comments form .row textarea {
+    width: 300px;
+}
+
+.comments form .row textarea {
+    height: 150px;
+}
+
+.comments form .row input.captcha {
+    width: 30px;
+}
+
+.comments fieldset.submit {
+    margin-left: 180px;
+}
+
+.comments fieldset.submit input {
+    background-color: #555;
+    color: #fff;
+    border: 1px #aaa solid;
+    padding: 8px 15px 8px 15px;
+    font-size: 1.4em;
 }

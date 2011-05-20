@@ -21,4 +21,6 @@ then you can go download the <a href="http://www.java.com">latest version for fr
 <p><b>NOTE:</b> Sockso is not currently compatible with GCJ, it requires a Sun
 Java runtime.</p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

@@ -25,4 +25,6 @@ it's collection ID).</p>
 users need to be logged in to upload files. (this defaults to requiring a login
 before users can upload)</p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

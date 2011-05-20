@@ -117,7 +117,7 @@ class Manual_Controller extends Default_Controller {
      * Returns the comments for the specified page, but only
      * if we're not on the index page
      *
-     * Â@return array
+     * ï¿½@return array
      */
     protected function getComments( $page ) {
         

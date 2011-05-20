@@ -89,8 +89,9 @@ Database user's password
 Name of the database to use
 </p>
 
-
 <p><b>--help</b><br />
 Prints out information about the command line options.</p>
+
+{include file="comments.tpl"}
 
 {include file="footer.tpl"}

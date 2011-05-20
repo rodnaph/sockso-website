@@ -62,4 +62,6 @@ propset scheduler manual
 
 <p>With this scheduler running you'll have to manually run the scan.</p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

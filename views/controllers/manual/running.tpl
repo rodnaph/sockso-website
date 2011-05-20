@@ -36,4 +36,6 @@ directory then execute the following command...</p>
 <p>Sockso should have started up now and you'll be presented with the GUI
 collection manager.  Next, you'll want to <a href="index.php?controller=manual&page=gui">learn how to use it</a>!</p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

@@ -86,4 +86,6 @@ might help you out.</p>
 
 </ul>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

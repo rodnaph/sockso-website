@@ -23,4 +23,6 @@ $> java -jar sockso.jar --ssl --sslKeystore=/home/me/keystore \
 <p><b>NOTE:</b> Running Sockso over SSL is not well tested and will impose a performance
 hit on your server.</p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

@@ -17,4 +17,6 @@ typing what you want to find and Sockso will show you what it's got!</p>
 <p><a href="{$filesUrl}images/manual/browsing-2.png"><img
     src="{$filesUrl}images/manual/browsing-2-small.png" /></a></p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

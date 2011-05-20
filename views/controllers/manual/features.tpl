@@ -26,4 +26,6 @@
     <li>Folder browsing view</li>
 </ul>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

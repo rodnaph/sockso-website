@@ -19,4 +19,6 @@ that music.  So for example to share your current playlist...</p>
 Your visitors will then see the flash player and will be able to click play
 and listen right there!  (<i>Aslong as your Sockso is running of course</i>).</p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

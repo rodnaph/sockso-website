@@ -43,4 +43,6 @@ $> java -jar sockso.jar --dbtype=mysql \
 
 <p><b>NB:</b> This will be a completely blank database.</p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

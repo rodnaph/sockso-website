@@ -38,4 +38,6 @@ $> java -jar sockso.jar --admin --dbtype=mysql etc...
 <p>This will start up a version of Sockso without a web server so you can make
 changes to the process running in the background.</p>
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}

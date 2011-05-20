@@ -101,4 +101,6 @@ encoders.flac.command /bin/sh /home/me/re-encode.sh
 </pre>
 <br />
 
+{include file="comments.tpl"}
+
 {include file="footer.tpl"}
