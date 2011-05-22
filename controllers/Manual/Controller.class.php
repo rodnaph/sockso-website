@@ -31,7 +31,7 @@ class Manual_Controller extends Default_Controller {
      *
      */
     public function doPost() {
-    
+            
         $req = $this->getRequest();
     
         if ( $this->formDataOk() && $this->captchaOk() ) {
@@ -39,7 +39,7 @@ class Manual_Controller extends Default_Controller {
         }
         
         $this->redirect(
-            'index.php?controller=manual&page=' . urlencode($req->page)
+            'index.php?controller=manual&page=' . urlencode($req->page) . '#comments'
         );
         
     }
