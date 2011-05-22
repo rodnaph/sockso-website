@@ -19,7 +19,7 @@ feature and is <b>not</b> enabled by default.</p>
 <h2>What it Does</h2>
 
 <p>The main visible change is the new <a href="index.php?controller=community">Community</a>
-    page on the main Sockso website.  This page lists Sockso servers that have
+    page on the Sockso website.  This page lists Sockso servers that have
     chosen to be a part of the community.  This page is live, so will only list
     currently running servers should they go up or down.</p>
 
@@ -44,7 +44,7 @@ $> propset community.enabled yes
 
 <p>If you've tried to opt-in to the community and your server isn't getting listed
     on the website then check that your setup is correct, and that the server is
-    available from the internet (if it's not is won't get listed).  If it is and
+    available from the internet (if it's not it won't get listed).  If it is and
     you're still having problems try posting in the forum for help.</p>
 
 <h2>Beware of...</h2>
