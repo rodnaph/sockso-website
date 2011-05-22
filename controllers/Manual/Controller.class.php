@@ -9,6 +9,24 @@ class Manual_Controller extends Default_Controller {
     const DEFAULT_PAGE = 'index';
 
     /**
+     * @var CommentPoster
+     */
+    private $poster;
+    
+    /**
+     * Sets the comment poster to use
+     * 
+     * @inject
+     * 
+     * @param CommentPoster $poster 
+     */
+    public function setCommentPoster( CommentPoster $poster ) {
+        
+        $this->poster = $poster;
+        
+    }
+    
+    /**
      * The index action shows the requested page, or defaults
      * to the index page.
      *
@@ -33,64 +51,16 @@ class Manual_Controller extends Default_Controller {
     public function doPost() {
             
         $req = $this->getRequest();
-    
-        if ( $this->formDataOk() && $this->captchaOk() ) {
-            $this->saveComment();
+
+        if ( $this->poster->post($req) ) {
+            $this->getSession()
+                 ->flash( 'commentSaved', true );
+            $this->sendEmailNotification();
         }
         
         $this->redirect(
             'index.php?controller=manual&page=' . urlencode($req->page) . '#comments'
         );
-        
-    }
-    
-    /**
-     * Indicates if the form data provided by the user is ok
-     * for saving a new comment
-     *
-     * @return bool
-     */
-    protected function formDataOk() {
-    
-        $req = $this->getRequest();
-        
-        return ( $req->name && $req->comment && $req->page );
-    
-    }
-    
-    /**
-     * Indicates if the user has filled in the captcha ok
-     *
-     * @return bool
-     */
-    protected function captchaOk() {
-    
-        $req = $this->getRequest();
-        
-        return ( strtolower($req->captcha2) == trim(strtolower($req->captcha)) );
-    
-    }
-    
-    /**
-     * Saves a comment and sets a flash message
-     *
-     */
-    protected function saveComment() {
-    
-        $req = $this->getRequest();
-    
-        $comment = $this->getModel( 'ManualComment' );
-        $comment->page = $req->page;
-        $comment->name = $req->name;
-        $comment->email = $req->email;
-        $comment->body = $req->comment;
-        $comment->dateCreated = date( 'Y-m-d H:i:s' );
-        $comment->save();
-        
-        $this->getSession()
-             ->flash( 'commentSaved', true );
-             
-        $this->sendEmailNotification();
         
     }
     
