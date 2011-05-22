@@ -3,6 +3,16 @@
 class Default_Controller extends Smut_Controller_Standard {
 
     /**
+     * Default index action just renders template
+     * 
+     */
+    public function doIndex() {
+        
+        $this->render( 'index' );
+        
+    }
+    
+    /**
      * Fetches data from the URL via CURL
      *
      * @param string $url
