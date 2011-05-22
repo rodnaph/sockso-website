@@ -14,15 +14,22 @@ class Manual_Controller extends Default_Controller {
     private $poster;
     
     /**
-     * Sets the comment poster to use
+     * @var SiteEmailer
+     */
+    private $emailer;
+    
+    /**
+     * Sets controller dependencies
      * 
      * @inject
      * 
      * @param CommentPoster $poster 
+     * @param SiteEmailer $emailer
      */
-    public function setCommentPoster( CommentPoster $poster ) {
+    public function init( CommentPoster $poster, SiteEmailer $emailer ) {
         
         $this->poster = $poster;
+        $this->emailer = $emailer;
         
     }
     
@@ -72,13 +79,11 @@ class Manual_Controller extends Default_Controller {
     protected function sendEmailNotification() {
         
         $req = $this->getRequest();
-        $config = $this->getConfig();
         
-        mail(
-            $config->get( 'site.email' ),
+        $this->emailer->send(
             'Comment posted on Sockso manual',
             "The {$req->page} page has just received a new comment.\n\n" .
-            "http://sockso.pu-gh.com/manual/{$req->page}.html"
+                "http://sockso.pu-gh.com/manual/{$req->page}.html"
         );
     
     }
