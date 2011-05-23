@@ -7,13 +7,17 @@ if ( google && google.load ) {
         var form = $( '.comments form' )
             .hide();
         var toggle = $( '<a></a>' )
-            .addClass( 'toggle' )
             .html( 'Post a comment' )
-            .insertBefore( form )
             .click(function() {
-                toggle.remove();
+                toggle.parent()
+                      .remove();
                 form.slideDown();
             });
+
+        $( '<li></li>' )
+            .addClass( 'toggle' )
+            .append( toggle )
+            .prependTo( '.comments ul.links' );
 
     });
 

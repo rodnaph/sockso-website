@@ -29,6 +29,10 @@
             <li class="empty">No comments yet, be the first!</li>
         {/foreach}
         </ul>
+            
+        <ul class="links">
+            <li class="problem"><a rel="noreferrer" target="_blank" href="https://github.com/rodnaph/sockso-website/issues/new">Report a problem</a> (via Github)</li>
+        </ul>
 
         <form method="post" action="index.php?controller=manual&action=post">
 

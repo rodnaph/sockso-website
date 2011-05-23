@@ -466,10 +466,31 @@ form.donate {
 
 /*====== Manual Comments =====*/
 
-.comments .toggle {
-    color: #00f;
+.comments .links li {
+    display: inline;
+}
+
+.comments .links li.toggle {
+    border-right: 1px #555 solid;
+    padding-right: 8px;
+}
+
+.comments .links li.problem {
+    padding-left: 4px;
+}
+
+.comments .links li.problem a { color: #c55; }
+.comments .links li.problem a:hover { color: #c00; }
+
+.comments .toggle a {
+    color: #77f;
     text-decoration: underline;
     cursor: pointer;
+}
+
+.comments .toggle a:hover {
+    text-decoration: none;
+    color: #00f;
 }
 
 .comments .flash {
