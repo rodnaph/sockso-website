@@ -1,4 +1,3 @@
-
 {include file="header.tpl" title="Optional Components"}
 
 <h1>Sockso's Optional Components</h1>
@@ -7,7 +6,7 @@
 This is meant to ensure that the default Sockso download remains small, but this
 won't restrict adding more ambitious features that require extra libraries, etc...</p>
 
-<h1>Download <a href="{$filesUrl}/downloads/sockso-optionals.zip">sockso-optionals.zip</a></h1>
+<h1>Download <a href="http://sockso.googlecode.com/files/sockso-optionals.zip">sockso-optionals.zip</a></h1>
 
 <p>The optionals download allows features like...</p>
 
