@@ -58,34 +58,19 @@ class Manual_Controller extends Default_Controller {
     public function doPost() {
             
         $req = $this->getRequest();
+        $commentWasPosted = $this->poster->post( $req );
 
-        if ( $this->poster->post($req) ) {
+        if ( $commentWasPosted ) {
             $this->getSession()
                  ->flash( 'commentSaved', true );
-            $this->sendEmailNotification();
+            $this->emailer
+                 ->sendCommentEmails( $req );
         }
         
         $this->redirect(
             'index.php?controller=manual&page=' . urlencode($req->page) . '#comments'
         );
         
-    }
-    
-    /**
-     * Sends an email notification to the site admin that a new
-     * comment has been posted on a manual page
-     *
-     */
-    protected function sendEmailNotification() {
-        
-        $req = $this->getRequest();
-        
-        $this->emailer->send(
-            'Comment posted on Sockso manual',
-            "The {$req->page} page has just received a new comment.\n\n" .
-                "http://sockso.pu-gh.com/manual/{$req->page}.html"
-        );
-    
     }
     
     /**

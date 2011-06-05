@@ -10,7 +10,6 @@ class SiteEmailer {
     /**
      * Create a new object for sending emails to site admin
      * 
-     * @param Smut_Config $config 
      */
     public function __construct( Smut_Config $config ) {
         
@@ -21,8 +20,6 @@ class SiteEmailer {
     /**
      * Send email with specified $subject and $message
      * 
-     * @param type $subject
-     * @param type $message 
      */
     public function send( $subject, $message ) {
         
@@ -31,7 +28,22 @@ class SiteEmailer {
             $subject,
             $message
         );
-            
+
+    }
+
+    /**
+     * Sends an email notification to the site admin that a new
+     * comment has been posted on a manual page
+     *
+     */
+    public function sendCommentEmails( Smut_Request $req ) {
+        
+        $this->send(
+            'Comment posted on Sockso manual',
+            "The {$req->page} page has just received a new comment.\n\n" .
+                "http://sockso.pu-gh.com/manual/{$req->page}.html"
+        );
+    
     }
     
 }
