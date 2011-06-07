@@ -1,4 +1,3 @@
-
 {include file="header.tpl" title="Community"}
 
 <div class="community">
@@ -20,9 +19,9 @@
             <tr{if $server->requiresLogin} class="requiresLogin"{/if}>
                 <td class="name">
                     <a href="http://{$server->ip}:{$server->port}{$server->basepath}">
-                        {$server->title}
+                        {$server->title|truncate:30}
                         -
-                        {$server->tagline}
+                        {$server->tagline|truncate:40}
                     </a>
                 </td>
                 <td class="version">

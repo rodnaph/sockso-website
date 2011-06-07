@@ -98,10 +98,10 @@ class Community_Controller extends Default_Controller {
     private function getServerData( $ip, $pingData ) {
         
         $url = sprintf(
-            'http://%s:%s%s/json/serverinfo',
+            'http://%s:%s%sjson/serverinfo',
             $ip,
             $pingData->port,
-            $pingData->basepath ? $pingData->basepath : ''
+            $pingData->basepath ? $pingData->basepath : '/'
         );
         
         $json = $this->getUrlData( $url );
