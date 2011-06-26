@@ -26,17 +26,9 @@ $>sh linux.sh --nogui
 
 <h2>Administration Mode</h2>
 
-<p>If you have Sockso running in the background, maybe started via an init.d
-script it would be a pain to have to stop and start it so you can see the
-GUI to do some adminitration.  So, if you're using <a href="index.php?controller=manual&page=mysql">MySQL</a>
-as a backend, you have the option of starting Sockso in <i>admin mode</i>.<p>
-
-<pre>
-$> java -jar sockso.jar --admin --dbtype=mysql etc...
-</pre>
-
-<p>This will start up a version of Sockso without a web server so you can make
-changes to the process running in the background.</p>
+<p>Sockso version before 1.3.4 had an administration mode available if you were
+using MySQL.  This feature has now been removed though as the admin console
+is available in the GUI.</p>
 
 {include file="comments.tpl"}
 

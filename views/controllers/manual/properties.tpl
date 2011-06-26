@@ -90,6 +90,7 @@ need to put a commer after it if it ends with a space eg. 'The ,'</p>
 <p><b>covers.defaultWidth</b>: number (pixel width to resize images to)</p>
 <p><b>covers.defaultHeight</b>: number (pixel height to resize images to)</p>
 <p><b>covers.xspf.display</b>: album/artist (in XSPF, show artist or album artwork?)</p>
+<p><b>covers.file.fallback</b>: name of default image file to look for in each folder</p>
 
 <h3>Misc</h3>
 
