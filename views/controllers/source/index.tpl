@@ -36,6 +36,17 @@
 
     </div>
 
+    <h2>Website Code</h2>
+
+    <p>The source code for the website is also available online here:</p>
+   
+    <p><a href="http://github.com/rodnaph/sockso-website">http://github.com/rodnaph/sockso-website</a></p>
+
+    <p>This is part of a larger framework, but is provided as open source because
+    Sockso does 'call home' for a few things like checking your external IP
+    address, and finding the latest version.  So having the code open shows
+    at least it's not doing anything naughty!  :D</p>
+
 </div>
 
 {include file="footer.tpl"}
