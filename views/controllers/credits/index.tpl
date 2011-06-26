@@ -22,6 +22,10 @@ something that people can use and enjoy, cheers guys and gals!!  :D</p>
     <li><b>LightGlitch</b> - Basepath patch</li>
 </ul>
 
+And all the people who have contributed code through Github:
+
+<p><a href="https://github.com/rodnaph/sockso/contributors">Github contributors</a>
+
 <p>If if I've missed your name, sorry!  Just remind me and I'll put it in.</p>
 
 {include file="footer.tpl"}

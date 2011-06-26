@@ -28,6 +28,20 @@ then you can select either the <b>M3U</b>, <b>Pls</b>, or <b>XSPF</b> options.  
 will send the playlist to your computer so you can use your preferred
 music application to listen.</p>
 
+<h2>HTML5 Player</h2>
+
+<p>The HTML5 Player should now allow you to use Sockso on mobile devices like
+iPad, iPhone, etc...  It functions pretty much the same as all the other players
+but also has the following key bindings:</p>
+
+<ul>
+    <li><b>a</b> - previous track</li>
+    <li><b>d</b> - next track</li>
+    <li><b>w</b> - volume up</li>
+    <li><b>s</b> - volume down</li>
+    <li><b>space</b> - pause</li>
+</ul>
+
 {include file="comments.tpl"}
 
 {include file="footer.tpl"}

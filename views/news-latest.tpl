@@ -1,5 +1,14 @@
 
 <div class="post">
+    <h2>26th June</h2>
+    <p><a href="http://sockso.googlecode.com/files/sockso-1.3.4.{$downloadExtension}">Sockso 1.3.4</a>
+    -
+    New HTML5 Player for iPad/iOS/etc support from <a href="http://github.com/nguillaumin">nguillaumin</a>,
+    new 'tinygreen' skin from <a href="https://github.com/simplify1234">Simplify</a>, and some bug fixes.
+    </p>
+</div>
+
+<div class="post">
     <h2>4th May</h2>
     <p><a href="http://sockso.googlecode.com/files/sockso-1.3.3.{$downloadExtension}">Sockso 1.3.3</a>
     -
