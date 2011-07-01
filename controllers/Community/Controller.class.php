@@ -72,7 +72,7 @@ class Community_Controller extends Default_Controller {
         $filtered = array();
         $allowedFields = array(
             'ip', 'port', 'basepath', 'requiresLogin',
-            'title', 'tagline'
+            'title', 'tagline', 'version'
         );
 
         foreach ( $servers as $server ) {
