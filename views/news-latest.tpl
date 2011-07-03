@@ -1,5 +1,13 @@
 
 <div class="post">
+    <h2>2nd July</h2>
+    <p><a href="http://sockso.googlecode.com/files/sockso-1.3.5.{$downloadExtension}">Sockso 1.3.5</a>
+    -
+    Fix for problem on OSX where Sockso would not start, other minor bug fixes for Flac handling.
+    </p>
+</div>
+
+<div class="post">
     <h2>26th June</h2>
     <p><a href="http://sockso.googlecode.com/files/sockso-1.3.4.{$downloadExtension}">Sockso 1.3.4</a>
     -
