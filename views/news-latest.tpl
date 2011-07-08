@@ -1,5 +1,11 @@
 
 <div class="post">
+    <h2>8th July</h2>
+    <p>Posted <a href="http://sockso.pu-gh.com/files/sockso/sockso-ios.swf">screencast</a> of *VERY* early
+    version of new Sockso iPhone app.  Feedback appreciated in the <a href="http://forums.pu-gh.com/viewtopic.php?f=1&t=6461">forums</a>.</p>
+</div>
+
+<div class="post">
     <h2>2nd July</h2>
     <p><a href="http://sockso.googlecode.com/files/sockso-1.3.5.{$downloadExtension}">Sockso 1.3.5</a>
     -
