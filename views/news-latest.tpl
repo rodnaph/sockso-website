@@ -1,5 +1,14 @@
 
 <div class="post">
+    <h2>23rd July</h2>
+    <p><a href="http://sockso.googlecode.com/files/sockso-1.4.{$downloadExtension}">Sockso 1.4</a>
+    -
+    Added a <a href="index.php?controller=manual&page=api">JSON API</a> to support developing
+    applications on top of Sockso.
+    </p>
+</div>
+
+<div class="post">
     <h2>8th July</h2>
     <p>Posted <a href="http://sockso.pu-gh.com/files/sockso/sockso-ios.swf">screencast</a> of *VERY* early
     version of new Sockso iPhone app.  Feedback appreciated in the <a href="http://forums.pu-gh.com/viewtopic.php?f=1&t=6461">forums</a>.</p>
