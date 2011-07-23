@@ -59,6 +59,7 @@ and drop me a message.</p>
 <li><a href="index.php?controller=manual&page=optionals">Optional Components</a></li>
 <li><a href="index.php?controller=manual&page=ssl">Starting Sockso with SSL</a></li>
 <li><a href="index.php?controller=manual&page=mysql">Using MySQL as a backend</a></li>
+<li><a href="index.php?controller=manual&page=api">JSON API</a></li>
 </ul>
 
 <h2><a href="#dev" name="dev">Developing</a></h2>
