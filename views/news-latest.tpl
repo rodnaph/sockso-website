@@ -1,5 +1,13 @@
 
 <div class="post">
+    <h2>24th July</h2>
+    <p><a href="http://sockso.googlecode.com/files/sockso-1.4.1.{$downloadExtension}">Sockso 1.4.1</a>
+    -
+    Fixes for unicode output issue, and strict JSON API issue with single quotes.
+    </p>
+</div>
+
+<div class="post">
     <h2>23rd July</h2>
     <p><a href="http://sockso.googlecode.com/files/sockso-1.4.{$downloadExtension}">Sockso 1.4</a>
     -
