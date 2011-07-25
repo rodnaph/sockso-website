@@ -14,11 +14,11 @@ $smarty->assign( 'downloadExtension',
 
         <div class="community-advert">
 
-            <h2>NEW: Sockso Community!</h2>
+            <h2>Sockso Community!</h2>
 
-            <p>Sockso 1.3 has just been released and with it the start of the
+            <p>Sockso comes with the ability to be instantly part of the
                 <a href="index.php?controller=community">Sockso Community</a>. So install
-                or update now to <a href="index.php?controller=manual&page=community">to take part!</a>
+                now to <a href="index.php?controller=manual&page=community">to take part!</a>
             </p>
 
         </div>
