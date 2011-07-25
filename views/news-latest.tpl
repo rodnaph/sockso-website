@@ -1,5 +1,13 @@
 
 <div class="post">
+    <h2>25th July</h2>
+    <p><a href="http://sockso.googlecode.com/files/sockso-1.4.2.{$downloadExtension}">Sockso 1.4.2</a>
+    -
+    Fix for fetching cover artwork from Amazon.
+    </p>
+</div>
+
+<div class="post">
     <h2>24th July</h2>
     <p><a href="http://sockso.googlecode.com/files/sockso-1.4.1.{$downloadExtension}">Sockso 1.4.1</a>
     -
