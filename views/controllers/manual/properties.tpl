@@ -31,6 +31,7 @@ set it to.  eg.</p>
 <p><b>www.covers.disable</b>: yes/no (disable cover images)</p>
 <p><b>www.covers.disableRemoteFetching</b>: yes/no (disable fetching covers from internet)</p>
 <p><b>www.skin</b>: text (name of the skin)</p>
+<p><b>www.metatags.*</b>: arbitrary <a href="index.php?controller=manual&page=metatags">meta tags</a>
 
 <h3>Server</h3>
 

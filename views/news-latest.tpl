@@ -1,5 +1,13 @@
 
 <div class="post">
+    <h2>10th December<h2>
+    <p><a href="http://sockso.googlecode.com/files/sockso-1.5.{$downloadExtension}">Sockso 1.5</a>
+    -
+    Added ability to add arbitrary meta tags, JPlayer support, HTTP Range header support, bug fixes, and finalised API v1.0
+    </p>
+</div>
+
+<div class="post">
     <h2>25th July</h2>
     <p><a href="http://sockso.googlecode.com/files/sockso-1.4.2.{$downloadExtension}">Sockso 1.4.2</a>
     -
