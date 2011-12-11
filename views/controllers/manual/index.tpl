@@ -18,6 +18,7 @@ and drop me a message.</p>
 <li><a href="index.php?controller=manual&page=running">Running Sockso</a></li>
 <li><a href="index.php?controller=manual&page=runningOnServer">Running on a Server</a></li>
 <li><a href="index.php?controller=manual&page=cmdline">Command Line Options</a></li>
+<li><a href="index.php?controller=manual&page=upgrading">Upgrading</a></li>
 </ul>
 
 <h2>Using</h2>
