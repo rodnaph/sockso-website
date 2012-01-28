@@ -1,4 +1,3 @@
-
 {php}
 $smarty->assign( 'downloadExtension',
     preg_match('/Macintosh/',$_SERVER['HTTP_USER_AGENT'])
@@ -97,7 +96,7 @@ $smarty->assign( 'downloadExtension',
                                 <li><a href="index.php?controller=manual&page=properties">Properties</a></li>
                                 <li><a href="index.php?controller=manual&page=customize">Customizing</a></li>
                                 <li><a href="index.php?controller=manual&page=console">The Console</a></li>
-                                <li><a href="index.php?controller=manual&action=artwork">Cover Artwork</a></li>
+                                <li><a href="index.php?controller=manual&page=artwork">Cover Artwork</a></li>
                         </ul>
                 </li>
             </ul>
