@@ -19,7 +19,8 @@ $smarty->assign(
         <a href="http://sockso.googlecode.com/files/sockso-{$latestVersion}.zip" title="Download for Linux">Linux <img src="{$filesUrl}images/icon-linux.png" alt="Linux Logo" /></a>
     </h1>
     <p><strong>Sockso</strong> is a <a href="http://www.gnu.org/licenses/gpl.txt">free</a>,
-        <a href="index.php?controller=source">open-source</a>, personal music server for everyone!  It's
+        <a href="index.php?controller=source">open-source</a>, personal music 
+        <a href="http://www.webhostingsearch.com/">host server</a> for everyone!  It's
     designed to be as simple as possible so that anyone with a mouse and
     some mp3's can get their friends listening to their music across the internet
     in <strong>seconds</strong>!</p>

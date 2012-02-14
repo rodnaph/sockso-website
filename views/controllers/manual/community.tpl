@@ -13,7 +13,8 @@ feature and is <b>not</b> enabled by default.</p>
     servers that people have running, and allow people to browse and listen to
     new music as easily as possible.</p>
 
-<p>Sockso started as just a server for personal use, for just one person, but hopefully
+<p>Sockso started as just a <a href="http://www.webhostingsearch.com/dedicated-server.php">dedicated server</a>
+     for personal use, for just one person, but hopefully
     if the community takes off people will have a more connected experience.</p>
 
 <h2>What it Does</h2>
