@@ -23,6 +23,10 @@ can happen if you have a very big collection.  To resolve this you will need to:
 help then you have the option of using <a href="index.php?controller=manual&page=mysql">MySQL as a backend</a>,
 which should give you all the performance you need.</p>
 
+<h2>#3 No system tray icon on 64bit Windows</h2>
+
+<p>On 64bit windows systems you'll need to copy <i>lib/std/systray4j-64bit.dll</i> to <i>lib/std/systray4j.dll</i>.</p>
+
 {include file="comments.tpl"}
 
 {include file="footer.tpl"}
