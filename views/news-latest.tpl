@@ -1,5 +1,14 @@
 
 <div class="post">
+    <h2>14th March 2012</h2>
+    <p><a href="http://sockso.googlecode.com/files/sockso-1.5.1.{$downloadExtension}">Sockso 1.5.1</a>
+    -
+    Bug fixes for path security hole, API access, and encoded pluses.  Along with updated Italian translation, 
+    adding ability to extract cover art from ID3 tags.
+    </p>
+</div>
+
+<div class="post">
     <h2>10th December</h2>
     <p><a href="http://sockso.googlecode.com/files/sockso-1.5.{$downloadExtension}">Sockso 1.5</a>
     -
