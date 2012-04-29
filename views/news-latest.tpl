@@ -1,5 +1,13 @@
 
 <div class="post">
+    <h2>29th April</h2>
+    <p><a href="http://sockso.googlecode.com/files/sockso-1.5.2.{$downloadExtension}">Sockso 1.5.2</a>
+    -
+    Bug fix for broken local cover art, and updated French translation.
+    </p>
+</div>
+
+<div class="post">
     <h2>14th March 2012</h2>
     <p><a href="http://sockso.googlecode.com/files/sockso-1.5.1.{$downloadExtension}">Sockso 1.5.1</a>
     -
