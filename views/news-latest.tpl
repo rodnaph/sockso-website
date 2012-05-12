@@ -1,5 +1,13 @@
 
 <div class="post">
+    <h2>12th May</h2>
+    <p><a href="http://sockso.googlecode.com/files/sockso-1.5.3.{$downloadExtension}">Sockso 1.5.3</a>
+    -
+    Bug fix release - fixes broken folder browsing and related artists.
+    </p>
+</div>
+
+<div class="post">
     <h2>29th April</h2>
     <p><a href="http://sockso.googlecode.com/files/sockso-1.5.2.{$downloadExtension}">Sockso 1.5.2</a>
     -
