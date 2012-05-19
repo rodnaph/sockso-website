@@ -19,7 +19,12 @@ it's collection ID).</p>
 
 <p>You'll then need to set <i>uploads.enabled</i> to <strong>yes</strong>, and
 <i>uploads.collectionId</i> to the collection ID of the folder you just added.
-</p>
+For example:</p>
+
+<pre>
+propset uploads.enabled yes
+propset uploads.collectionId 1
+</pre>
 
 <p>You can also use the <i>uploads.allowAnonymous</i> to control whether or not
 users need to be logged in to upload files. (this defaults to requiring a login
