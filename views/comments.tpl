@@ -34,7 +34,7 @@
             <li class="problem"><a rel="noreferrer" target="_blank" href="https://github.com/rodnaph/sockso-website/issues/new">Report a problem</a> (via Github)</li>
         </ul>
 
-        <form method="post" action="index.php?controller=manual&action=post">
+        <form method="post" action="index.php?controller=comment&action=post">
 
             <h3>Post Comment</h3>
             

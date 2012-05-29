@@ -27,6 +27,6 @@ it is it'll be available for purchase.<p>
     I hope.  It's taken a lot of time, and this is just a hobby for me so it's
     my spare time that has been dedicated.  I hope you think it's fair.</p>
 
-{include file="comments.tpl"}
+{include file="comments.tpl" page="page-ios"}
 {include file="footer.tpl"}
 
