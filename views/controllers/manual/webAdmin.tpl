@@ -1,5 +1,5 @@
 
-{include file="header.tpl" title="Artwork"}
+{include file="header.tpl" title="Web Admin Console"}
 
 <h1>Web Admin Console</h1>
 
